@@ -1,0 +1,38 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+*.tfplan
+tfplan
+
+# AWS credentials
+.aws/
+credentials
+
+# Python
+__pycache__/
+*.py[cod]
+*.zip
+
+# Environment files
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+# Generated Lambda package
+lambda.zip
+
+# Local test output
+response.json
+report.json
+report-score.json

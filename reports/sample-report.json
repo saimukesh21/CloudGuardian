@@ -1,0 +1,26 @@
+{
+  "project": "CloudGuardian",
+  "report_type": "AWS Security Scan Report",
+  "generated_at": "2026-09-28T11:08:54.513015+00:00",
+  "summary": {
+    "security_score": 95,
+    "total_findings": 1,
+    "high": 0,
+    "medium": 0,
+    "low": 1
+  },
+  "service_summary": {
+    "IAM": 0,
+    "S3": 1,
+    "EC2": 0
+  },
+  "findings": [
+    {
+      "service": "S3",
+      "severity": "LOW",
+      "title": "S3 versioning disabled: fita-aws-devops",
+      "description": "S3 bucket 'fita-aws-devops' does not have versioning enabled.",
+      "status": "OPEN"
+    }
+  ]
+}
